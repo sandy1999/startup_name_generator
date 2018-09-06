@@ -91,7 +91,10 @@ class _RandomWordState extends State<RandomWord> {
             appBar: new AppBar(
               title: new Text('Saved Suggestions'),
             ),
-            body: new ListView(children: divided),
+            body: new ListView(
+              padding: EdgeInsets.all(18.0),
+              children: divided
+              ),
           );
         }
       )
