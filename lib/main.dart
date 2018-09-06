@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Welcome to Flutter',
+      title: 'Startup Name Generator',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.white,
       ),
       home: new RandomWord()
     );
